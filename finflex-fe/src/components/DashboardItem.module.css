@@ -1,0 +1,7 @@
+.dashboard-item{
+    text-overflow: ellipsis;
+    transition: ease-in-out 0.3s;
+}
+.dashboard-item:hover{
+    transform: scale(0.9);
+}

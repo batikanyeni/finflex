@@ -1,0 +1,31 @@
+.accounts{
+    margin-bottom: 4px;
+    padding: 10px;
+    transition: ease-in-out 0.3s;
+    text-align: center;
+
+}
+.account-container{
+    margin-top: 10px;
+    max-height: 200px;
+    overflow-y: hidden;
+    transition: ease-in-out 0.5s;
+}
+.account-container:hover{
+    overflow-y: auto;
+}
+.alert-hidden{
+ visibility: hidden;
+}
+
+
+.accounts:hover{
+
+    cursor: pointer;
+    background-color: #ececec;
+    border-radius: 5px;
+}
+.selectedAccount {
+    background-color: #d3d3d3; /* Darker background color */
+    border-radius: 5px;
+}
